@@ -23,11 +23,10 @@
 
 
     &--white
-        background-color: $color-white
-        color: $color-grey-dark
+        @include btnColor($color-white, $color-grey-dark)
 
-        &::after
-            background-color: $color-white
+    &--green
+        @include btnColor($color-primary, $color-white)
 
     &::after
         content: ''

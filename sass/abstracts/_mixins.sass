@@ -9,3 +9,10 @@
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark)
     -webkit-background-clip: text
     color: transparent
+
+@mixin btnColor($backgroundColor, $color)
+    background-color: $backgroundColor
+    color: $color
+
+    &::after
+        background-color: $backgroundColor
