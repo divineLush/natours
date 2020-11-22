@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
     "compile:sass": "node-sass sass/main.sass css/style.css",
     "watch:sass": "node-sass sass/main.sass css/style.css -w"
   },
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/divineLush/natours#readme",
   "devDependencies": {
+    "lite-server": "^2.6.1",
     "node-sass": "^4.14.1"
   }
 }
